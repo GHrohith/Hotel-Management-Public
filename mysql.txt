@@ -1,0 +1,16 @@
+create database iptest;
+
+create table bookings(RoomId varchar(5),
+2021_03_28 int,
+2021_03_29 int,
+2021_03_30 int,
+2021_03_31 int);
+
+insert into bookings(RoomId) values('S100'),('S101'),('S102'),('S103'),('S104'),('G200'),('G201'),('G202'),('P300'),('P301');
+
+create table customers(CusId int,
+Name varchar(25),
+Phone bigint,
+Credits int);
+
+insert into table cusotmers();
